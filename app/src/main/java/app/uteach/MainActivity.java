@@ -2,6 +2,7 @@ package app.uteach;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -41,13 +42,14 @@ public class MainActivity extends AppCompatActivity {
             JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.POST, url, parameters, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject response) {
-
+                    Log.i("TAG", response.toString());
                     Toast.makeText(getApplicationContext(), response.toString(), Toast.LENGTH_SHORT).show();
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError error) {
                     error.printStackTrace();
+                    //Log.i("TAG", response.toString());
                     //TODO: handle failure
                 }
             });
@@ -55,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             Volley.newRequestQueue(this).add(jsonRequest);
         } catch (JSONException e) {
             e.printStackTrace();
+            //Log.i("TAG", response.toString());
 
         }
 
