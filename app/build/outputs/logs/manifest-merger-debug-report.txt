@@ -13,8 +13,13 @@ ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:2:1-
 	android:versionCode
 		INJECTED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:4:22-64
 application
 ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.volley:volley:1.0.0] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:25:5-20
@@ -50,6 +55,7 @@ ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:15:1
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:15:27-74
 uses-sdk
 INJECTED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.volley:volley:1.0.0] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:appcompat-v7:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:support-v4:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-compat:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/AndroidManifest.xml:21:5-23:58

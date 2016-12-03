@@ -10,8 +10,37 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="app.uteach.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:text="Student"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/button"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:onClick="student_main.xml" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:text="Who are you?"
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:layout_above="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Tutor"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:onClick="tutor_main.xml" />
 </RelativeLayout>
