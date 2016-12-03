@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action.xml"
+        "merged": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/yoshidakanehiro/Applications/UTeach/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/res/layout-v21/notification_template_icon_group.xml"
     }
 ]
