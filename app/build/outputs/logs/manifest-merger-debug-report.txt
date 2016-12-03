@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:2:1-28:12
 	package
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:3:5-25
 		INJECTED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml
@@ -18,7 +18,7 @@ ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:5:5-
 	android:name
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:7:5-24:19
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:7:5-26:19
 MERGED from [com.android.volley:volley:1.0.0] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v4:25.0.1] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/AndroidManifest.xml:25:5-20
@@ -56,13 +56,21 @@ ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:17:1
 	android:name
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:17:27-74
 activity#app.uteach.TutorActivity
-ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:20:9-23:68
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:20:9-23:59
 	android:label
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:22:13-57
 	android:theme
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:23:13-56
 	android:name
 		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:21:13-42
+activity#app.uteach.Success
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:24:9-45
+	android:name
+		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:24:19-42
+activity#app.uteach.StudentActivity
+ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:25:9-62
+	android:name
+		ADDED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml:25:19-50
 uses-sdk
 INJECTED from /Users/jeffrey/Documents/UTeach/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.volley:volley:1.0.0] /Users/jeffrey/Documents/UTeach/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/AndroidManifest.xml:7:5-43

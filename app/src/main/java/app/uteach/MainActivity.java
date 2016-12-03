@@ -11,16 +11,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, TutorActivity.class);
         startActivity(intent);
     }
+    public void onStudent (View view) {
+        Intent intent = new Intent(this, StudentActivity.class);
+        startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        // Button tutor = (Button) findViewById(R.id.tutor);
-
-        // Instantiate the RequestQueue.
-
-
     }
 }

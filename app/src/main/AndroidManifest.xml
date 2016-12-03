@@ -21,7 +21,8 @@
             android:name=".TutorActivity"
             android:label="@string/title_activity_tutor"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Success"></activity>
+        <activity android:name=".Success" />
+        <activity android:name=".StudentActivity"></activity>
     </application>
 
 </manifest>

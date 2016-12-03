@@ -27,6 +27,8 @@
             android:name="app.uteach.TutorActivity"
             android:label="@string/title_activity_tutor"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="app.uteach.Success" />
+        <activity android:name="app.uteach.StudentActivity" />
     </application>
 
 </manifest>
