@@ -8,7 +8,7 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/Location"
+        android:id="@+id/Student_Location"
         android:entries="@array/cities"
         android:prompt="@string/city_text"/>
 
@@ -24,5 +24,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/search"
-        android:onClick="onsearch"/>
+        android:onClick="onSearch"/>
 </LinearLayout>
