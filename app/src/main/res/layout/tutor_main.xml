@@ -18,12 +18,15 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/Location" />
+        android:id="@+id/Location"
+        android:entries="@array/cities"
+        android:prompt="@string/city_text"/>
 
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/Proffession"
+        android:id="@+id/profession"
+        android:entries="@array/professions"
         android:layout_weight="0.09" />
 
     <EditText
@@ -56,6 +59,8 @@
         android:text="Send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/sendbutton" />
+        android:id="@+id/sendbutton"
+        android:onClick="onSend"
+        />
 
 </LinearLayout>
