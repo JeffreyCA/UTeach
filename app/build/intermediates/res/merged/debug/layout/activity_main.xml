@@ -20,7 +20,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textSize="18sp"
-        android:onClick="student_main.xml" />
+        android:onClick="onStudent" />
 
     <TextView
         android:layout_height="wrap_content"
