@@ -20,4 +20,11 @@
     </string-array>
     <string name="title_activity_tutor">Tutor</string>
     <string name="city_text">City</string>
+    <string-array name="What_you_look_for">
+        <item>What are you looking for?</item>
+        <item>Programmer</item>
+        <item>Cook</item>
+        <item>Tutor</item>
+        <item>Linguist</item>
+    </string-array>
 </resources>
