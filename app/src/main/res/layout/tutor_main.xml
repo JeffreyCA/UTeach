@@ -26,10 +26,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="User Name"
+        android:text="Name"
         android:ems="10"
         android:id="@+id/username"
-        tools:text="User Name" />
+        tools:text="Name" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -65,7 +65,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Personal Description"
         android:ems="10"
         android:id="@+id/description"
         android:layout_weight="0.51"
