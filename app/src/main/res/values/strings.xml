@@ -1,13 +1,23 @@
 <resources>
     <string name="app_name">UTeach</string>
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
+    <string-array name="cities">
+        <item>Select City</item>
+        <item>Downtown Toronto</item>
+        <item>Mississauga</item>
+        <item>Scarborough</item>
+        <item>North York</item>
+        <item>Markham</item>
+        <item>Hamilton</item>
+        <item>Brampton</item>
+        <item>Waterloo</item>
     </string-array>
+    <string-array name="professions">
+        <item>Select profession</item>
+        <item>Programmer</item>
+        <item>Cook</item>
+        <item>Tutor</item>
+        <item>Linguist</item>
+    </string-array>
+    <string name="title_activity_tutor">Tutor</string>
+    <string name="city_text">City</string>
 </resources>
