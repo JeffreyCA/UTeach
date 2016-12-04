@@ -28,7 +28,7 @@ public class SearchActivity extends AppCompatActivity {
             results = new JSONArray(getIntent().getStringExtra("SEARCH_RESULTS"));
             final ListView listview = (ListView) findViewById(R.id.listview);
             final ArrayList<String> list = new ArrayList<String>();
-            for (int i =0; i<results.length(); i++){
+            for (int i = 0; i < results.length(); i++) {
                 list.add(results.getJSONObject(i).getString("name"));
             }
             final StableArrayAdapter adapter = new StableArrayAdapter(this,
@@ -38,22 +38,25 @@ public class SearchActivity extends AppCompatActivity {
                 @Override
                 public void onItemClick(AdapterView<?> parent, final View view,
                                         int position, long id) {
-                    Intent intent = new Intent(this, ProfileActivity.class);
-                    try {
-                        intent.putExtra("TUTOR", results.getJSONObject(position).toString());
-                        startActivity(intent);
-                    }
-                    catch (Exception e){
-                        e.printStackTrace();
-                    }
+                    openSearchResult(position);
 
                 }
 
             });
-        }
-        catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+
+        private void openSearchResult(int position){
+            Intent intent = new Intent(this, ProfileActivity.class);
+            try {
+                intent.putExtra("TUTOR", results.getJSONObject(position).toString());
+                startActivity(intent);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
     }
 
     private class StableArrayAdapter extends ArrayAdapter<String> {
