@@ -24,6 +24,7 @@
         <activity android:name=".Success" />
         <activity android:name=".StudentActivity"></activity>
         <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".ProfileActivity"></activity>
     </application>
 
 </manifest>
