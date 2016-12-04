@@ -1,5 +1,6 @@
 package app.uteach;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -18,6 +19,7 @@ import org.json.JSONObject;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 public class StudentActivity extends AppCompatActivity {
     Spinner location;
@@ -43,6 +45,7 @@ public class StudentActivity extends AppCompatActivity {
                     try {
                         JSONArray result = response.getJSONArray("tutors");
                         Log.i("TAG", result.toString());
+                        openSearch(result);
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
@@ -60,5 +63,11 @@ public class StudentActivity extends AppCompatActivity {
 
             Volley.newRequestQueue(this).add(jsonRequest);
 
+    }
+
+    private void openSearch(JSONArray result){
+        Intent intent = new Intent(this, SearchActivity.class);
+        intent.putExtra("SEARCH_RESULTS", result.toString());
+        startActivity(intent);
     }
 }

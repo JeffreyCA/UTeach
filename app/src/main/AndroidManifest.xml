@@ -23,6 +23,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Success" />
         <activity android:name=".StudentActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
     </application>
 
 </manifest>
