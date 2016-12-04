@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -34,12 +35,12 @@ public class SearchActivity extends AppCompatActivity {
             final StableArrayAdapter adapter = new StableArrayAdapter(this,
                     android.R.layout.simple_list_item_1, list);
             listview.setAdapter(adapter);
+            Log.i("TAG", "TEST");
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, final View view,
                                         int position, long id) {
                     openSearchResult(position);
-
                 }
 
             });
@@ -49,6 +50,7 @@ public class SearchActivity extends AppCompatActivity {
     }
 
         private void openSearchResult(int position){
+            Log.i("TAG", "EVERYTHING SHOULD BE TOTALLY FINE");
             Intent intent = new Intent(this, ProfileActivity.class);
             try {
                 intent.putExtra("TUTOR", results.getJSONObject(position).toString());
