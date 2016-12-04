@@ -1,8 +1,10 @@
 package app.uteach;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -17,12 +19,13 @@ import app.uteach.R;
 
 public class SearchActivity extends AppCompatActivity {
 
+    JSONArray results;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_results);
         try {
-            JSONArray results = new JSONArray(getIntent().getStringExtra("SEARCH_RESULTS"));
+            results = new JSONArray(getIntent().getStringExtra("SEARCH_RESULTS"));
             final ListView listview = (ListView) findViewById(R.id.listview);
             final ArrayList<String> list = new ArrayList<String>();
             for (int i =0; i<results.length(); i++){
@@ -31,6 +34,22 @@ public class SearchActivity extends AppCompatActivity {
             final StableArrayAdapter adapter = new StableArrayAdapter(this,
                     android.R.layout.simple_list_item_1, list);
             listview.setAdapter(adapter);
+            listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, final View view,
+                                        int position, long id) {
+                    Intent intent = new Intent(this, ProfileActivity.class);
+                    try {
+                        intent.putExtra("TUTOR", results.getJSONObject(position).toString());
+                        startActivity(intent);
+                    }
+                    catch (Exception e){
+                        e.printStackTrace();
+                    }
+
+                }
+
+            });
         }
         catch (Exception e){
             e.printStackTrace();
